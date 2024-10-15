@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Inventory {
+public class Inventory implements Storable {
     private Map<String, Integer> itemMap;
     private int totalItem;
 
